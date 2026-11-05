@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mon Chatbot</title>
+
+    <link rel="stylesheet" href="css/peekobot.css">
+
+    <style>
+        :root {
+            --peekobot-height: 70vh;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            padding: 25px;
+            text-align: center;
+            background: #263746;
+            color: white;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mon assistant</h1>
+        <p>Bienvenue sur mon chatbot</p>
+    </header>
+
+    <main>
+        <h2>Comment puis-je vous aider ?</h2>
+
+        <div id="peekobot-container">
+            <div id="peekobot-inner">
+                <div id="peekobot"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/conversation.js"></script>
+    <script src="js/peekobot.js"></script>
+
+</body>
+</html>
